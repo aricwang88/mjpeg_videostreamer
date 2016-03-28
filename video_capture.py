@@ -4,8 +4,13 @@ this application is video capture example
 
 import numpy as np
 import cv2
+from timer import Timer
 
+timer = Timer()
+timer.start()
 cap = cv2.VideoCapture(0)
+timer.end()
+print "initialization elapsed : " + str(timer.elapsed())
 
 while(True):
     # Capture frame-by-frame
