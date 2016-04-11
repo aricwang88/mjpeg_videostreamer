@@ -9,6 +9,6 @@ $ pip install Pillow
 ```
 
 ##Usage
-'''
+```
 $ python streamer.py 192.168.0.1
-'''
+```
