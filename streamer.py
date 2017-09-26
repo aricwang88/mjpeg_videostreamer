@@ -6,7 +6,7 @@ this application is motion jpeg streaming server.
 
 import os
 import sys
-import cv2
+#import cv2
 import cam.cam
 import httplib
 import SocketServer
